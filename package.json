@@ -1,5 +1,6 @@
 {
   "name": "bg-vue-sdk",
+  "type": "module",
   "version": "1.0.1",
   "description": "a test module",
   "main": "./dist/pwa-vue-sdk.udm.js",
