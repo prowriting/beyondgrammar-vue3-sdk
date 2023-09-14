@@ -9,8 +9,9 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      name: "PWA",
-      fileName: "pwa-vue-sdk"
+      name: "pwa-vue3-sdk",
+      formats: ["es"],
+      fileName: (format) => `pwa-vue3-sdk.${format}.js`
     },
     rollupOptions: {
       external: ["vue"],

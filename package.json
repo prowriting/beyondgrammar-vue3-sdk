@@ -1,19 +1,17 @@
 {
-  "name": "bg-vue-sdk",
+  "name": "pwa-vue3-sdk",
   "type": "module",
-  "version": "1.0.1",
-  "description": "a test module",
-  "main": "./dist/pwa-vue-sdk.udm.js",
-  "module": "./dist/pwa-vue-sdk.js",
+  "version": "1.0.6",
+  "description": "",
+  "module": "./dist/pwa-vue3-sdk.es.js",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
-  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/pwa-vue-sdk.esm.js",
-      "require": "./dist/pwa-vue-sdk.js"
+      "import": "./dist/pwa-vue3-sdk.es.js",
+      "require": "./dist/pwa-vue3-sdk.es.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "scripts": {
