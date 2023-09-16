@@ -4,7 +4,7 @@ SDK for integrating [ProWritingAid](https://prowritingaid.com) Beyond Grammar wi
 ## Installation
 
 ```
-npm install --@prowriting/vue3-sdk
+npm install --save @prowriting/vue3-sdk
 ```
 
 ## Usage
