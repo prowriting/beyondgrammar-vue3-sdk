@@ -4,7 +4,7 @@ SDK for integrating [ProWritingAid](https://prowritingaid.com) Beyond Grammar wi
 ## Installation
 
 ```
-npm install --save pwa-vue3-sdk
+npm install --@prowriting/vue3-sdk
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ To add Beyond Grammar plugin to the text editor, wrap it with <span style='color
 
 The <span style='color:#267FA6'>PwaEditorWrapper</span> needs an `apiKey` to work. You can register a free api key (for individual) on [ProWritingAid](https://prowritingaid.com) website.
 
-```ts
+```vue
 <script setup language='ts'>
 import {PwaEditorWrapper} from 'pwa-vue3-sdk'
 </script>

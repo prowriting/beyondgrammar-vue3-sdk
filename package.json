@@ -1,7 +1,7 @@
 {
-  "name": "pwa-vue3-sdk",
+  "name": "@prowriting/vue3-sdk",
   "type": "module",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "",
   "module": "./dist/pwa-vue3-sdk.es.js",
   "files": [

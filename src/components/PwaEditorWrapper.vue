@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 import {ref, onMounted } from 'vue';
-import { loadScript } from '../utils/load-script'; //from "vue-plugin-load-script";
+import { loadScript } from '../utils/load-script';
 
 const props = defineProps({
     apiKey: String
