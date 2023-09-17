@@ -1,32 +1,38 @@
 {
-  "name": "@prowriting/vue3-sdk",
+  "name": "@prowriting/vue2-sdk",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
-  "module": "./dist/pwa-vue3-sdk.es.js",
+  "module": "./dist/pwa-vue2-sdk.es.js",
   "files": [
     "dist"
   ],
   "exports": {
     ".": {
-      "import": "./dist/pwa-vue3-sdk.es.js",
-      "require": "./dist/pwa-vue3-sdk.es.js",
+      "import": "./dist/pwa-vue2-sdk.es.js",
+      "require": "./dist/pwa-vue2-sdk.es.js",
       "types": "./dist/index.d.ts"
     }
   },
+  "keywords": [
+    "Vue2",
+    "ProWritingAid",
+    "BeyondGrammar"
+  ],
   "scripts": {
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev": "vite"
   },
   "dependencies": {
-    "vue": "^3.3.4"
+    "vue": "^2.7.0"
   },
   "peerDependencies": {
-    "vue": "^3.3.4"
+    "vue": "^2.7.0"
   },
   "devDependencies": {
     "@types/node": "^20.5.9",
-    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue2": "^2.2.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
     "vue-tsc": "^1.8.5",

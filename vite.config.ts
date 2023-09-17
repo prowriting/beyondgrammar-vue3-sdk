@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import vue from '@vitejs/plugin-vue2'
 import {resolve} from "path";
 import dts from "vite-plugin-dts";
 
@@ -9,9 +9,9 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      name: "pwa-vue3-sdk",
+      name: "@prowriting/vue2-sdk",
       formats: ["es"],
-      fileName: (format) => `pwa-vue3-sdk.${format}.js`
+      fileName: (format) => `pwa-vue2-sdk.${format}.js`
     },
     rollupOptions: {
       external: ["vue"],

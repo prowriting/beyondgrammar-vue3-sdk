@@ -1,10 +1,10 @@
 # Beyond Grammar SDK for Vue
-SDK for integrating [ProWritingAid](https://prowritingaid.com) Beyond Grammar with Vue 3 application with a few lines of code. It brings real-time grammar, spelling and style checking into your editor.
+SDK for integrating [ProWritingAid](https://prowritingaid.com) Beyond Grammar with Vue 2 application with a few lines of code. It brings real-time grammar, spelling and style checking into your editor.
 
 ## Installation
 
 ```
-npm install --save @prowriting/vue3-sdk
+npm install --save @prowriting/vue2-sdk
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ The <span style='color:#267FA6'>PwaEditorWrapper</span> needs an `apiKey` to wor
 
 ```vue
 <script setup language='ts'>
-import {PwaEditorWrapper} from 'pwa-vue3-sdk'
+import {PwaEditorWrapper} from '@prowriting/vue2-sdk'
 </script>
 
 <template>
@@ -27,7 +27,7 @@ import {PwaEditorWrapper} from 'pwa-vue3-sdk'
 </template>
 ```
 
-And that's it!. An online example can be found on [CodeSandbox.](https://codesandbox.io/p/sandbox/adoring-paper-rff7hc?file=/src/components/app.vue)
+And that's it!. An online example can be found on [CodeSandbox.](https://codesandbox.io/p/sandbox/zealous-firefly-5r2yfp)
 
 ## Why choose our plugin?
 Our state-of-the-art grammar checker is used by over 500,000 users. It contains many unique features that you won't find in other solutions. These include:
