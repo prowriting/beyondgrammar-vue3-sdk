@@ -1,6 +1,7 @@
 # Beyond Grammar SDK for Vue
 SDK for integrating [ProWritingAid](https://prowritingaid.com) Beyond Grammar with Vue 3 application with a few lines of code. It brings real-time grammar, spelling and style checking into your editor.
 
+For Vue 2, please check branch [`vue2-sdk`](https://github.com/prowriting/beyondgrammar-vue3-sdk/tree/vue2-sdk)
 ## Installation
 
 ```
@@ -16,7 +17,7 @@ The <span style='color:#267FA6'>PwaEditorWrapper</span> needs an `apiKey` to wor
 
 ```vue
 <script setup language='ts'>
-import {PwaEditorWrapper} from 'pwa-vue3-sdk'
+import {PwaEditorWrapper} from '@prowriting/vue3-sdk'
 </script>
 
 <template>
