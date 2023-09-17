@@ -1,7 +1,7 @@
 {
   "name": "@prowriting/vue3-sdk",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "module": "./dist/pwa-vue3-sdk.es.js",
   "files": [
@@ -16,7 +16,8 @@
   },
   "scripts": {
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev": "vite"
   },
   "dependencies": {
     "vue": "^3.3.4"
